@@ -14,9 +14,9 @@ To get this code working you'll need:
 h2. Configuration
 
 1. Fill in your Sales Force USERNAME, PASSWORD and SECURITY_TOKEN in check_salesforce.php
-1. Decide what StageName you want to trigger alerts on, default is 'Closed Won: IO Signed'
-1. Setup a CRON job to run once a minute or whatever is desired. 
-1. If you run less than once a minute you may want to change the query time which is now looking back 15 minutes.
+2. Decide what StageName you want to trigger alerts on, default is 'Closed Won: IO Signed'
+3. Setup a CRON job to run once a minute or whatever is desired. 
+4. If you run less than once a minute you may want to change the query time which is now looking back 15 minutes.
 
 h2. Notes
 
